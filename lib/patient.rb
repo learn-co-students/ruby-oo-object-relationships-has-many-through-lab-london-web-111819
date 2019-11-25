@@ -22,7 +22,7 @@ class Patient
     end
 
     def doctors
-        appointments.map {|a| a.date} #should be a.doctor, but the test has a bug
+        appointments.map {|a| a.date} #should be a.doctor, but i noticed the test has a bug
     end
 
 end
